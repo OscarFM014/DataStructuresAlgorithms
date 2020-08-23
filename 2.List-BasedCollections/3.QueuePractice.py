@@ -17,7 +17,9 @@ class Queue:
     def dequeue(self):
         return self.storage.pop(0)
 
-    
+
+
+
 # Setup
 q = Queue(1)
 q.enqueue(2)
